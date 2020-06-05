@@ -1,5 +1,5 @@
 {
-  "name": "json-ignore",
+  "name": "filter-json",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
