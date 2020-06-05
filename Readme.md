@@ -6,5 +6,15 @@
 
  - npm install json-ignore
 
+```
+const jsonIgnore = require('json-ignore');
 
-<script src="https://gist.github.com/WooJongSeon/d8144ad8a6c187d89e72ab5a52497ab7.js"></script>
+const objectToProcess = {
+  field1: 'field1',
+  field2: 'field2',
+  fieldToRemove: 'hihi'
+}
+
+const result = jsonIgnore(['fieldToRemove'], objectToProcess);
+
+```
