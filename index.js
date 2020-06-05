@@ -9,3 +9,6 @@ const jsonIgnore = (fields, obj) => {
   })
   return obj;
 }
+
+
+module.exports = jsonIgnore;
