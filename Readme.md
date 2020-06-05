@@ -7,7 +7,7 @@
  - npm install json-ignore
 
 ```
-const jsonIgnore = require('json-ignore');
+const jsonIgnore = require('ignore-field');
 
 const objectToProcess = {
   field1: 'field1',
